@@ -2,9 +2,11 @@
 
 [![image](https://badge.fury.io/py/django-better-admin-arrayfield.svg)](https://badge.fury.io/py/django-better-admin-arrayfield)
 
-[![image](https://travis-ci.org/gradam/django-better-admin-arrayfield.svg?branch=master)](https://travis-ci.org/gradam/django-better-admin-arrayfield)
+[![image](https://travis-ci.org/maykinmedia/django-better-admin-arrayfield.svg?branch=master)](https://travis-ci.org/maykinmedia/django-better-admin-arrayfield)
 
-[![image](https://codecov.io/gh/gradam/django-better-admin-arrayfield/branch/master/graph/badge.svg)](https://codecov.io/gh/gradam/django-better-admin-arrayfield)
+[![image](https://codecov.io/gh/maykinmedia/django-better-admin-arrayfield/branch/master/graph/badge.svg)](https://codecov.io/gh/maykinmedia/django-better-admin-arrayfield)
+
+**This is a fork from [gradam/django-better-admin-arrayfield](https://github.com/gradam/django-better-admin-arrayfield)**
 
 Better ArrayField widget for admin
 
@@ -14,16 +16,16 @@ Supported Django versions: 1.11, 2.0, 2.1, 2.2
 It changes comma separated widget to list based in admin panel.
 
 Before:
-![Alt text](https://raw.githubusercontent.com/gradam/django-better-admin-arrayfield/master/readme_images/before.jpg "Before")
+![Alt text](https://raw.githubusercontent.com/maykinmedia/django-better-admin-arrayfield/master/readme_images/before.jpg "Before")
 
 After:
-![Alt text](https://raw.githubusercontent.com/gradam/django-better-admin-arrayfield/master/readme_images/after.png "After")
+![Alt text](https://raw.githubusercontent.com/maykinmedia/django-better-admin-arrayfield/master/readme_images/after.png "After")
 
 ## Quickstart
 
 Install Django better admin ArrayField:
 
-    pip install django-better-admin-arrayfield
+    pip install maykin-django-better-admin-arrayfield
 
 Add it to your \`INSTALLED\_APPS\`:
 
@@ -75,6 +77,8 @@ Install pre-commit black hook
     (myenv) $ pre-commit install
 
 ## Credits
+
+https://github.com/gradam for creating the initial package
 
 Inspired by: https://stackoverflow.com/a/49370480/4638248
 
