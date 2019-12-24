@@ -11,8 +11,8 @@ with open("HISTORY.md") as f:
 
 setup(
     name="maykin-django-better-admin-arrayfield",
-    version="1.0.4",
-    description="""Better ArrayField widget for admin""",
+    version="1.0.5",
+    description="Better ArrayField widget for admin",
     long_description=readme + "\n\n" + history,
     long_description_content_type="text/markdown",
     author="Jakub Semik, Maykin Media",
